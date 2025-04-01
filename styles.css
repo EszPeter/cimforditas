@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   background-image: url(hatter.jpg);
   background-size: cover;
+  text-align: justify;
 }
 
 #content {
@@ -52,7 +53,6 @@ p.imgtitle {
 table,
 .frame {
   border: 3px solid green;
-  background-color: rgba(227, 225, 233, 0.8);
 }
 
 a:link,
@@ -71,4 +71,23 @@ a{
 
 a:hover{
   color: yellow;
+}
+
+table{
+  background-color: rgba(227, 225, 233, 0.8);
+  float: left;
+  margin: 10px;
+}
+
+table, th, td{
+  border: 3px solid darkgreen;
+  border-collapse: collapse;
+  line-height: 280%;
+  text-align: center;
+  width: 580px;
+}
+
+th{
+  background-color: green;
+  color: white;
 }
